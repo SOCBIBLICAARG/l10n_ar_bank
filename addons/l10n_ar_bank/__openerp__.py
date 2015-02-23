@@ -1,23 +1,4 @@
 # -*- coding: utf-8 -*-
-##############################################################################
-#
-# Copyright (C) 2012 OpenERP - Team de Localización Argentina.
-# https://launchpad.net/~openerp-l10n-ar-localization
-#
-# This program is free software: you can redistribute it and/or modify
-# it under the terms of the GNU General Public License as published by
-# the Free Software Foundation, either version 3 of the License, or
-# (at your option) any later version.
-#
-# This program is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-# GNU General Public License for more details.
-#
-# You should have received a copy of the GNU General Public License
-# along with this program. If not, see <http://www.gnu.org/licenses/>.
-#
-##############################################################################
 {   'active': False,
     'author': 'OpenERP - Team de Localizaci\xc3\xb3n Argentina',
     'category': 'Localization/Argentina',
@@ -30,10 +11,10 @@
     'license': 'AGPL-3',
     'name': 'Banks of Argentina',
     'test': ['test/l10n_ar_banks_wizard.yml'],
-    'update_xml': [   'data/res_bank.xml',
-                      'l10n_ar_bank.xml',
-                      'l10n_ar_bank_menu.xml',
-                      'wizard/wiz_l10n_ar_bank.xml'],
+    'data': ['data/res_bank.xml',
+             'l10n_ar_bank.xml',
+             'l10n_ar_bank_menu.xml',
+             'wizard/wiz_l10n_ar_bank.xml'],
     'version': '2.7.231',
     'website': 'https://launchpad.net/~openerp-l10n-ar-localization'}
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
